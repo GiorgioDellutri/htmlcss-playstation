@@ -31,8 +31,30 @@ section.jumbotron-2{
 }
 /** ------------- GAME CARD -------------*/
 
-.game-miniature{
+section.game-cards div.game-card img.game-miniature{
     border-radius: 30px;
 }
 
-/** ------------- PS5 PRESENTATION -------------*/
+
+
+/** ------------- NEW RELEASE-------------*/
+
+section.new-releases{
+    background-color: #1E1E1E;
+}
+
+div.box-new-release img.release{
+    border-radius: 30px;
+}
+
+/** ------------- PLAYSTATION PLUS-------------*/
+
+section.playstation-plus{
+    background-color: #BEBCBB;
+}
+
+/** ------------- PLAYSTATION NOW-------------*/
+
+section.playstation-now{
+    background-color: #171D34;
+}
