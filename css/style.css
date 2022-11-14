@@ -8,20 +8,27 @@ header div.sony{
     background-color: black;
 }
 
-.font-15{
-    font-size: 15px;
+.font-10{
+    font-size: 10px;
 }
 
 /** ------------- JUMBOTRON -------------*/
 
 section.jumbotron{
     height: 700px;
-    background-image: url(../img/returnal-cover2.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+section.jumbotron-1{
+    background-image: url(../img/returnal-cover2.jpg);
+}
+
+section.jumbotron-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 /** ------------- GAME CARD -------------*/
 
 .game-miniature{
