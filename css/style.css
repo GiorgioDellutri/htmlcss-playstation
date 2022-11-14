@@ -1,11 +1,29 @@
 body{
-    color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 header div.sony{
-    height: 30px;
+    height: 40px;
     background-color: black;
 }
 
-div.sony .sony-logo{
+
+
+/** ------------- JUMBOTRON -------------*/
+
+section.jumbotron{
+    height: 700px;
+    background-image: url(../img/returnal-cover2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+/** ------------- GAME CARD -------------*/
+
+.game-miniature{
+    border-radius: 30px;
+}
+
+/** ------------- PS5 PRESENTATION -------------*/
