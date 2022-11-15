@@ -2,8 +2,11 @@ body{
     color: black;
     font-family: 'Roboto', sans-serif;
 }
+/** ------------- SONY BANNER -------------*/
 
-header div.sony{
+
+
+header section.top-banner div.sony{
     height: 40px;
     background-color: black;
 }
@@ -15,29 +18,43 @@ header div.sony{
 /** ------------- JUMBOTRON -------------*/
 
 section.jumbotron{
-    height: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-section.jumbotron-1{
+section.jumbotron-top{
+    height: 700px;
     background-image: url(../img/returnal-cover2.jpg);
 }
 
-section.jumbotron-2{
+section.jumbotron-middle{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
-/** ------------- GAME CARD -------------*/
+/** ------------- SECTION GAME CARD -------------*/
 
-section.game-cards div.game-card img.game-miniature{
+section.game-cards div.box-card{
     border-radius: 30px;
+    overflow: hidden;
+    transition: .1s ease;
 }
 
+div.box-card:hover{
+    outline: 3px solid #0F6DC3;
+    outline-offset: 3px;
+    cursor: pointer;
+    transform: scale(1.07);
+    box-shadow: 5px 10px 10px 5px rgb(124, 119, 119);
+}
 
+/** ------------- SECTION PRESENTATION-------------*/
 
-/** ------------- NEW RELEASE-------------*/
+section.ps5-presentation{
+    margin-top: 5rem;
+}
+
+/** ------------- SECTION NEW RELEASE-------------*/
 
 section.new-releases{
     background-color: #1E1E1E;
@@ -47,7 +64,7 @@ div.box-new-release img.release{
     border-radius: 30px;
 }
 
-/** ------------- PLAYSTATION PLUS-------------*/
+/** ------------- SECTION PLAYSTATION PLUS-------------*/
 
 section.playstation-plus{
     background-color: #BEBCBB;
