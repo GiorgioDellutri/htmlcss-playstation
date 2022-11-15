@@ -1,10 +1,9 @@
 body{
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: Helvetica Neue, Arial, sans-serif;
 }
 /** ------------- SONY BANNER -------------*/
-
-
 
 header section.top-banner div.sony{
     height: 40px;
@@ -48,6 +47,8 @@ div.box-card:hover{
     box-shadow: 5px 10px 10px 5px rgb(124, 119, 119);
 }
 
+
+
 /** ------------- SECTION PRESENTATION-------------*/
 
 section.ps5-presentation{
@@ -60,8 +61,15 @@ section.new-releases{
     background-color: #1E1E1E;
 }
 
-div.box-new-release img.release{
+div.box-new-release{
+    width: 200px;
+    height: 200px;
     border-radius: 30px;
+    overflow: hidden;
+}
+
+div.box-new-release img{
+    width: 100%;
 }
 
 /** ------------- SECTION PLAYSTATION PLUS-------------*/
@@ -74,4 +82,28 @@ section.playstation-plus{
 
 section.playstation-now{
     background-color: #171D34;
+}
+
+/** ------------- FOOTER-------------*/
+
+footer{
+    background-color: #05418F;
+}
+
+img.ps-footer-logo{
+    width: 150px;
+}
+
+img.globe{
+    width: 50px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
 }
