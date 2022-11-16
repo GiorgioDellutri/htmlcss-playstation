@@ -101,7 +101,7 @@ img.ps-footer-logo{
 }
 
 img.globe{
-    width: 50px;
+    width: 30px;
 }
 
 ul li{
@@ -111,7 +111,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 
