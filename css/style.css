@@ -14,6 +14,7 @@ header section.top-banner div.sony{
     font-size: 10px;
 }
 
+
 /** ------------- JUMBOTRON -------------*/
 
 section.jumbotron{
@@ -62,15 +63,10 @@ section.new-releases{
 }
 
 div.box-new-release{
-    width: 200px;
-    height: 200px;
     border-radius: 30px;
     overflow: hidden;
 }
 
-div.box-new-release img{
-    width: 100%;
-}
 
 /** ------------- SECTION PLAYSTATION PLUS-------------*/
 
@@ -79,9 +75,19 @@ section.playstation-plus{
 }
 
 /** ------------- PLAYSTATION NOW-------------*/
+section.discount{
+    margin: 100px 0;
+}
 
 section.playstation-now{
     background-color: #171D34;
+}
+
+/** ------------- PLAYSTATION NOW-------------*/
+
+section.social div.social-box{
+    /* width: 250px;
+    height: 250px; */
 }
 
 /** ------------- FOOTER-------------*/
@@ -107,3 +113,5 @@ ul li a{
     text-decoration: none;
     color: white;
 }
+
+
