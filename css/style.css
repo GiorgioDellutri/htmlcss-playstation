@@ -69,6 +69,7 @@ div.wrapper-accessory:hover{
 
 div.wrapper-accessory{
     opacity: 0.8;
+    transition: .3s ease;
 }
 
 /** ------------- SECTION NEW RELEASE-------------*/
