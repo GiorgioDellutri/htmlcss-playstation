@@ -3,6 +3,11 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: Helvetica Neue, Arial, sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /** ------------- SONY BANNER -------------*/
 
 header section.top-banner div.sony{
@@ -43,17 +48,27 @@ section.game-cards div.box-card{
 div.box-card:hover{
     outline: 3px solid #0F6DC3;
     outline-offset: 3px;
-    cursor: pointer;
     transform: scale(1.07);
     box-shadow: 5px 10px 10px 5px rgb(124, 119, 119);
 }
-
 
 
 /** ------------- SECTION PRESENTATION-------------*/
 
 section.ps5-presentation{
     margin-top: 5rem;
+}
+
+
+/** ------------- ACCESSORIES-------------*/
+
+div.wrapper-accessory:hover{
+    border-bottom: 2px solid #0F6DC3;
+    opacity: 1;
+}
+
+div.wrapper-accessory{
+    opacity: 0.8;
 }
 
 /** ------------- SECTION NEW RELEASE-------------*/
@@ -109,9 +124,5 @@ ul li{
     margin-bottom: 5px;
 }
 
-ul li a{
-    text-decoration: none;
-    color: inherit;
-}
-
-
+div.my-container{
+width: 100%;}
